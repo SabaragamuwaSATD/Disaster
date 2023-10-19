@@ -1,0 +1,24 @@
+<resources>
+    <string name="Application_Name">Disaster Management</string>
+    <string name="Report_Adding_Section">Report Disaster</string>
+    <string name="Disaster_Button">Disaster</string>
+    <string name="Emergency_Contact">SOS</string>
+    <string name="Back">back</string>
+    <string name="Disaster_News_Button">News</string>
+    <string name="Find_Location_Button">Location</string>
+    <string name="Disaster_Title">Disasters</string>
+    <string name="ImportantView">Important Contact</string>
+    <string name="Police">Police</string>
+    <string name="Fire">Fire Services</string>
+    <string name="Doctor">Doctor</string>
+    <string name="Ambulance">Ambulance</string>
+    <string name="First_Aid">First Aid</string>
+    <string name="Medical">Medical Tips</string>
+    <string name="Weather_Button">Weather</string>
+    <string name="Alert">Report Disaster</string>
+
+
+
+
+
+</resources>

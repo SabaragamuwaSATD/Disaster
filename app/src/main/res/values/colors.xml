@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Black">#FF000000</color>
+    <color name="Whit">#FFFFFFFF</color>
+    <color name="MyRed">#DC5555</color>
+    <color name="MyGreenLight">#4CAF50</color>
+    <color name="MyYellow">#FFC107</color>
+    <color name="MyBack">#87ADBF</color>
+    <color name="MyGray">#87ADBF</color>
+    <color name="MyGreen">#59EC5F</color>
+    <color name="MyBlue">#5B71EA</color>
+
+
+</resources>

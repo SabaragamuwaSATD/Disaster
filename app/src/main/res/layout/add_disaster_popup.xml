@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Title"
+        android:backgroundTint="@color/MyBlue" />
+
+    <EditText
+        android:id="@+id/editTextDistrict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Place"
+        android:backgroundTint="@color/MyGreenLight" />
+
+    <EditText
+        android:id="@+id/editTextDis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Description"
+        android:backgroundTint="@color/MyYellow" />
+
+    <ImageView
+        android:id="@+id/selectphoto"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/MyGray" />
+
+    <Button
+        android:id="@+id/btnUploadPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Photo"
+        android:backgroundTint="@color/MyBlue" />
+</LinearLayout>

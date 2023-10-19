@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MyGreenLight"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Emergency_Calls">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:text="@string/ImportantView"
+        android:textColor="@color/MyRed"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/callPoliceButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/custom_button_bg"
+        android:text="@string/Police"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/callFireButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_button_bg"
+        android:text="@string/Fire"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/callDoctorButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_button_bg"
+        android:text="@string/Doctor"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/callAmbulanceButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_button_bg"
+        android:text="@string/Ambulance"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/medicalWebButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/custom_button_bg"
+        android:text="@string/Medical"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/firstAidTipButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_button_bg"
+        android:text="@string/First_Aid"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/weatherNewsButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_button_bg"
+        android:text="@string/Weather_Button"
+        android:textSize="18sp" />
+</LinearLayout>
